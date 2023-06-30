@@ -1,0 +1,133 @@
+.invade{
+    display: flex;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.montserrat, .lobster, .fuzzy{
+    text-align:center;
+    flex-grow: 1;
+    padding:10px;
+}
+
+@font-face {
+    font-family:'montserrat';
+    src: url(./font/Montserrat-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family:'lobster';
+    src: url(./font/Lobster_complete-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'fuzzy';
+    src: url(./font/FuzzyBubbles_complete-Regular.woff) format('woff');
+}
+.montserrat {
+    font-family:montserrat;
+    letter-spacing:0.3em;
+    line-height:3em;
+    background-color: #b7fddc;
+    color: #7fd9f5;
+}
+
+.lobster {
+    font-family: lobster;
+    letter-spacing:0.3em;
+    line-height:3em;
+    background-color: #fdf4a3;
+    color: #c5b7e3;
+}
+
+.fuzzy {
+    font-family: fuzzy;
+    letter-spacing:0.3em;
+    line-height:3em;
+    background-color: #f19298;
+    color: #ffe89c;
+}
+
+.montserrat_type {
+    width:28%;
+    height:100%;
+    font-family: montserrat;
+    letter-spacing:0.3em;
+    line-height : 3em;
+    font-size:2em;
+    background-color: rgba(255,255,255,0);
+    color: #f50000;
+    position:fixed;
+    left:2%;
+    border-radius:30px;
+    padding: 1%;
+    border-width: 1px;
+    border-style:dotted;
+    border-color:#f50000;
+}
+
+.lobster_type {
+    width:28%;
+    height:100%;
+    font-family: lobster;
+    letter-spacing:0.3em;
+    line-height : 3em;
+    font-size:2em;
+    background-color: rgba(255,255,255,0);
+    position:fixed;
+    color: #017026;
+    left: 35%;
+    border-color:#017026;
+    border-radius:30px;
+    padding: 1%;
+    border-width: 2px;
+    border-style:dotted;
+}
+
+.fuzzy_type {
+    width:28%;
+    height:100%;
+    font-family: fuzzy;
+    letter-spacing:0.3em;
+    line-height : 3em;
+    font-size:2em;
+    background-color: rgba(255,255,255,0);
+    position:fixed;
+    left: 69%;
+    color: #190c6a;
+    border-radius:30px;
+    padding: 1%;
+    border-width: 1px;
+    border-style:dotted;
+    border-color:#190c6a;
+}
+
+
+.montserrattype {
+    animation: typing 40s steps(100);
+    margin:5%;
+}
+
+.lobstertype {
+    animation: typing 50s steps(172);
+    margin:5%;
+}
+
+.fuzzytype{
+    animation: typing 30s steps(111);
+    margin:5%;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    
+    }
+}
